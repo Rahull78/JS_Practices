@@ -40,3 +40,11 @@ const jhonBmis = jhonMass / jhonHeight ** 2;
 let markHigherBMI1 = markBMIs > jhonBmis;
 
 console.log(markBMIs, jhonBmis, markHigherBMI1);
+
+// CHallange 2
+
+if (markBMIs > jhonBmis) {
+  console.log(`marks bmi ${markBMIs} is higher than jhons bmi ${jhonBmis}`);
+} else {
+  console.log(`jhons bmi ${jhonBmis} is higher than marks bmi ${markBMIs}`);
+}
