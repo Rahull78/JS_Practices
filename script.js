@@ -47,3 +47,21 @@ console.log(typeof a);
 
 var aa = null;
 console.log(typeof aa);
+
+// Math operator
+const now = 2024;
+const myAge = now - 2002;
+console.log(myAge);
+
+// Assignment
+let X = 10 + 5; //15
+X += 10; //X=X(15)+10=25
+X *= 4; //X=X(25)*4=100
+X++; //X=X+1=101
+X--; //X=X(101)-1=100
+X--; //X=X(100)-1=99
+console.log(X);
+
+let Aaa, b;
+Aaa = b = 25 - 10 - 5;
+console.log(Aaa, b);
